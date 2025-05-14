@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../Models/Utilisateur.php';
 require_once __DIR__ . '/../Models/Admin.php';
-require_once __DIR__ . '/../Database/Database.php';
+require_once __DIR__ . '/../Config/config.php'; // Inclusion correcte pour la connexion à la base de données
 
 class UtilisateurController
 {
